@@ -1,0 +1,66 @@
+.table-row {
+    cursor: pointer !important;
+    transition: all 0.3s ease-in;
+  }
+  
+  .table-row:hover {
+    background-color: #5b5d5f; /* Change to your desired color */
+    color: white;
+    transform: translateX(4px);
+    overflow: hidden;
+  }
+  
+  .role {
+    text-transform: capitalize;
+  }
+  
+  #actions button {
+    background-color: transparent;
+    border: 0;
+  }
+  
+  .selected {
+    background-color: #4e5051; /* Change to your desired color */
+    color: white;
+  }
+  
+  #actions button:first-child {
+    margin-right: 20px;
+  }
+  
+  #actions button:last-child {
+    color: #c0392b !important;
+  }
+  
+  tr:hover td span i,
+  .selected td span i {
+    color: white !important;
+  }
+  
+  .align-left {
+    float: left;
+  }
+  
+  #deleteAll span:last-child {
+    margin-left: 10px;
+  }
+  
+  #deleteAll {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #deleteAll.active {
+    border: 1px solid #c0392b; /* Change to your desired color */
+    color: #c0392b; /* Change to your desired color */
+  }
+  
+  #deleteAll.active:hover {
+    background-color: #c0392b; /* Change to your desired color */
+    color: white;
+  }
+  
+  #deleteAll.disabled {
+    border: 1px solid #2c3e50; /* Change to your desired color */
+    color: #2c3e50; /* Change to your desired color */
+  }
+  

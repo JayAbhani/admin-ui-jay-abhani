@@ -1,0 +1,17 @@
+.full-width {
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    background-color: #e6e6e6;
+    color: #333333;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .full-width:hover {
+    background: linear-gradient(to left, #2676ac, #2a81ba);
+    color: #ffffff;
+  }
+  

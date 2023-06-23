@@ -1,0 +1,78 @@
+.form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    color: #555555;
+  }
+  
+  input {
+    border: 0;
+    box-shadow: none;
+    border-bottom: 2px solid #2c3e50;
+    transition: all 0.3s ease-in-out;
+    background-color: #f7f7f7;
+    color: #333333;
+    padding: 5px 10px;
+  }
+  
+  #msg {
+    color: #c0392b;
+    text-transform: capitalize;
+    margin-top: 5px;
+  }
+  
+  #msg span:first-child {
+    margin-right: 10px;
+  }
+  
+  /* Additional styles */
+  
+  .App {
+    text-align: center;
+    background-color: #E1ECC8;
+    padding: 20px;
+  }
+  
+  .App-logo {
+    height: 200px;
+    width: 200px;
+    pointer-events: none;
+    animation: App-logo-spin infinite 3s linear;
+  }
+  
+  .App-header {
+    background-color: #3f51b5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+  }
+  
+  .App-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .App-subtitle {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .App-link {
+    color: #ff4081;
+    text-decoration: none;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
